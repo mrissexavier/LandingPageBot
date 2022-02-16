@@ -1,0 +1,40 @@
+header{
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.4);
+    background: linear-gradient(68.15deg, #0f0c29, #302b63, #24243e);
+}
+
+header .logo{
+    font-size: 3.7rem;
+    color: var(--pink);
+    font-family: 'Righteous', cursive;
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+}
+
+header .logo span{
+    color: #fff;
+}
+
+header .navbar{
+    display: flex;
+    gap: 32px;
+}
+
+header .navbar a{
+    font-size: 1.9rem;
+    margin-left: 2rem;
+    color: #fff;
+    opacity: 0.8;
+    transition: all .3s linear;
+    font-family: 'Sarala', sans-serif;
+}
+
+header .navbar a:hover{
+    color: var(--pink)
+}

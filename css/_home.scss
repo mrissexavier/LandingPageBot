@@ -1,0 +1,52 @@
+.wrapper{
+    height: 94vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.home .title{
+    font-size: 5.5rem;
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0,.2);
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    width: 12ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    animation: typing 1.8s steps(15), blink .3s step-end infinite alternate;
+}
+
+@keyframes typing{
+
+    from{
+        width: 0
+    }
+  
+}
+  
+  @keyframes blink {
+  
+    50% {
+        border-color: transparent
+    }
+  
+}
+
+.home .title span{
+    color: var(--pretoescuro);
+}
+
+.home .content{
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}

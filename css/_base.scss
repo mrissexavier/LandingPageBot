@@ -1,0 +1,33 @@
+:root{
+    --pretoescuro: #0f0c29;
+    --roxo: #302b63;
+    --roxoescuro: #24243e;
+    --pink: #a53c6f;
+    --purple: #7d3994;
+    --gradient: linear-gradient(78.15deg, var(--pretoescuro), var(--roxo), var(--roxoescuro));
+}
+
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    text-transform: capitalize;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0f0c29, #302b63, #24243e);
+}
+
+html{
+    font-size: 62.5%;
+    overflow: scroll;
+}
+
+section{
+    min-height: 100vh;
+    padding: 0.9%;
+    padding-top: 7.5rem;
+}

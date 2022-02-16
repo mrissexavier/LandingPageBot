@@ -1,0 +1,77 @@
+.commands .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 18px;
+    padding: 5.5rem;
+}
+
+.commands .content h3{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: var(--pink);
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0,.3);
+    margin-bottom: 16px;
+}
+
+.commands .content p{
+    font-size: 1.4rem;
+    color: #fff;
+
+}
+
+.commands .basic{
+    font-size: 5.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0,.3);
+    margin-top: 48px;
+    padding: 5.5rem;
+}
+
+.commands .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.commands .box{
+    flex: 1 1 30rem;
+    background: rgba(0, 0, 0,.06); 
+    border-radius: .7rem;
+    border: .1rem solid rgba(0, 0, 0,.2);
+    box-shadow: 0.5rem 1rem rgba(0, 0, 0,.1);
+    margin: 1.5rem;
+    padding: 2rem 2rem;
+    border-radius: .7rem;
+}
+
+.commands .box h3{
+    font-size: 2rem;
+    color: var(--purple);
+    text-shadow: 0 .5rem 1rem rgba(0, 0, 0,.5);
+    padding-top: 1rem;
+    font-family: 'Sarala', sans-serif;
+    
+}
+
+.commands .box p{
+    font-size: 1.5rem;
+    color: rgb(233, 227, 227);
+    padding: 1rem 0;
+    text-transform:none;
+    font-weight: 600;
+    font-family: 'Source Serif 4', sans-serif;
+    word-spacing: .5rem;
+}
+
+.commands .box p span{
+    color: var(--pink);
+    text-transform: lowercase;
+    font-style: italic;
+}
